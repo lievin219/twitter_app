@@ -1,0 +1,344 @@
+*{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+}
+body{
+     background-color:black;
+     --twitter-background:grey;
+     --twitter-color:cyan;
+     display: flex;
+      height: 100vh;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0 10px;
+      color: white;
+}
+
+i{
+     color:cyan;
+}
+i::after{
+     color:orange;
+}
+.sidebarOption{
+     display:flex;
+     align-items: center;
+     cursor: pointer;}
+     .sidebarOption, .material-symbols-outlined , .fa-twitter{
+         padding: 15px;
+
+     }
+     .sidebarOption h2 {
+         font-weight: 1700px;
+         margin-right: 30px;
+     }
+     .sidebarOption:hover{
+        background-color: var(--twitter-color);
+        border-radius: 30px;
+        color:var(--twitter-background);
+        transition:color 1000ms ease-in-out;
+     }
+     .sidebarOption.active{
+         color:var(--twitter-color)
+     }
+     .sidebar_twitter{
+         width:75px;
+         background-color: var(--twitter-color);
+         border-radius: 30px;
+         border: none;
+         font-weight: 15px;
+         margin-top:20px;
+         height:65px
+
+     }
+     .sidebar{
+          flex:0.2;
+          border-right:10px solid var(--twitter-background);
+          min-width:250px;
+          padding-left: 20px;
+          padding-left: 20px;
+          margin-top: 20px;
+
+
+     }
+     .fa-twitter{
+          color:var(--twitter-color);
+          font-size: 30px;
+     }
+     img{
+         margin-left: 20px;
+         display: flex;
+          width:auto;
+          height: 900px;;
+          border-radius: 20px;
+     }
+     .tweetbox-input{
+         flex:0.5;
+         
+         min-width: fit-content;
+      ;
+     }
+     .feed-header {
+         background-color: white;
+         color:black;
+     }
+     .feed{
+        border-right: 3px solid var(--twitter-background);
+         min-width:400px;
+         overflow: scroll;
+         color:white;
+        
+     }
+     .tweetbox{
+        background-color: black;
+        position: sticky;
+        z-index: 100;
+        padding:15px 20px;
+         color:white;
+
+     }
+     .feed-header h2{
+         font-size: 20px;
+         font-weight: 200px;
+         background-color: black;
+         color:white;
+         height: 30px;
+        
+     }
+    
+     .feed{
+        
+        scrollbar-width:none;
+        background-color: black;
+     }
+     .tweetbox-input img{
+         border-radius: 50%;
+         height:40px;
+         background-color: black;
+     }
+     .tweetbox{
+         padding-bottom: 10px;
+         border: 1px solid grey;
+         padding-right: 80px;
+
+     }
+     .tweetbox form{
+         display: flex;
+         flex-direction: column;
+     }
+    .tweetbox-input{
+        padding:20px ;
+         display:flex;
+     }
+     .tweetbox-input input{
+         border:none;
+         font-size: 20px;
+         margin-left: 20px;
+         outline:none;
+         background-color: black;
+        color:grey}
+     .tweeting{
+         border:none;
+         background-color:var(--twitter-color);
+         color:black;
+          font-weight: 900;
+          border-radius: 30px;
+          width:30%;
+          height:50px;
+          margin-left: auto;
+          margin-top: 20px;
+
+     }
+     .spanss{
+         display: flex;
+         float: left;
+         color:var(--twitter-color)
+     }
+     .before{
+         text-decoration: aliceblue;
+     }
+     .design{
+         color:var(--twitter-color)
+     }
+     .paragraphs{
+        display:flex;
+        float:left;
+        border:none;
+        margin-top: 20px;
+         text-decoration: dashed;
+         color: grey;
+     }
+     .buttoni
+      {
+         color:black;
+         border-radius: 20px;
+         margin: 30px;
+         background-color: white;
+         width: 80px;
+         padding: auto;
+
+
+      }
+      .dots{
+        margin-left:900px ;
+        background-color: black;
+        color: gray;
+        width: 67px;
+        margin-top: 45px;
+        display: flex;
+
+
+      }
+      .before{
+         border: 2px solid gray;
+      }
+.post_header img{
+         
+          height:40px;;
+          border-radius: 50%;
+          overflow: scroll;
+         
+     
+}
+.post_header img span{
+     float:left;
+     
+     display:flex;
+    
+      margin-bottom: 33px;
+}
+.post p span{
+   
+    float:left
+}
+.search{
+   flex:0.2;
+    min-width: fit-content;
+    
+    min-width:300px;
+    padding-left: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+   
+}
+.biliing{
+     width:80px;
+     
+     float:left;
+    background-color: black;
+    color:gray;
+    border-radius: 20px;
+     
+}
+.alit{
+    display:flex;
+    padding:20px 30px;
+    border:2px solid black;
+    font-size: 20px;
+    margin-left: 20px;
+    outline:none;
+    background-color:black;
+    color:gray;
+    font-size: 30px;
+    border-radius: 30px;
+    width:30px;
+   
+}
+.alit input{
+    display:flex;
+    padding:20px;
+    border:none;
+    font-size: 20px;
+    margin-left: 20px;
+    outline:none;
+    color:gray;
+   margin-left: auto;
+   font-size: 13px;
+background-color:black;}
+.searching{
+    border:20px solid darkgray;
+    background-color:darkgrey;
+    color:white;
+    border-radius: 20px;
+    height: 1300px;
+    
+   
+
+    
+
+}
+.siri h2{
+    
+      display:flex;
+      font-size: 20px;
+
+      
+}
+.sir h2{
+     display: flex;
+     float:left;
+     font-size: 20px;
+     margin-top: 20px;
+     word-spacing: 30px;
+     color: gray;
+    
+
+}
+.leftii{
+     
+     margin-left:70px ;
+     background-color: grey;
+     color: white;
+     width: 67px;
+     margin-top: 15px;
+     display: flex;
+
+}
+.post{
+     display: flex;
+      align-items: flex-start;
+      border-bottom: 1px solid var(--twitter-color);
+       padding-bottom:10px 20px ;
+       overflow: scroll;
+
+}
+.post-body img {
+    width:450px;
+   
+    border-radius: 100px;
+    background-color: grey;
+    overflow: scroll;
+
+  
+       
+}
+.before{
+     overflow: scroll;
+}
+.sir h3{
+     color:white;
+     display: flex;
+    float: left;
+     font-size: 14px;
+     margin-top: 5px;
+   
+    ;
+}
+.sir h4{
+    color:gray;
+    display: flex;
+    font-size: 18px;
+    margin-top: 25px;
+    float: left;
+    margin-left: -55px;
+
+   
+
+}
+.post_headerdescription img{
+    border: none;
+    width:100px;
+    overflow:scroll;
+    border-bottom: 20px;
+}
